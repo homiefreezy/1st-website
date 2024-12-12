@@ -134,9 +134,20 @@ margin-left: 20px;
 font-size: 18x;
 border-radius: 10px;
 cursor: pointer;
+transition: .4s ease;
 }
 
 .content .cn a{
     text-decoration: none;
     color: #000;
+    transition: .3s ease;
 }
+
+.cn:hover {
+background-color: #fff;
+}
+.content span {
+color: #000;
+font-size: 60px;
+}
+
